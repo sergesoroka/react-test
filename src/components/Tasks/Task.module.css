@@ -1,0 +1,17 @@
+.taskContainer, .taskHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 1200px;
+    margin: 0 auto;
+}
+.taskContainer > span {
+    text-align: left;
+    border-top: 1px solid #dfdfdf;
+    padding: 12px;
+}
+
+.taskHeader > span {
+    text-align: left;
+    font-weight: 700;
+    padding: 12px;
+}
