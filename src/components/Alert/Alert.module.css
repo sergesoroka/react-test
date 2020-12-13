@@ -1,0 +1,20 @@
+.alert, .alert__error, .alert__success {
+    display: inline-block;
+    padding: 10px;
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    color: #ffffff;
+}
+
+.alert__error {
+    background: rgb(255, 102, 85);
+}
+
+.alert__success {
+    background: rgb(76, 143, 43);
+}
+
+
