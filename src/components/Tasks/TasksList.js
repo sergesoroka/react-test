@@ -36,12 +36,13 @@ function TasksList() {
       </div>
       <div>{renderTasks}</div>
       <div className={styles.pagination}>
-        {/* {tasks.length > 3 ? renderPagination : null} */}
-        <Pagination
-          tasksPerPage={tasksPerPage}
-          totalTasks={tasks.length}
-          paginate={paginate}
-        />
+        {tasks.length > 3 ? (
+          <Pagination
+            tasksPerPage={tasksPerPage}
+            totalTasks={tasks.length}
+            paginate={paginate}
+          />
+        ) : null}
       </div>
     </>
   );

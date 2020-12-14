@@ -2,6 +2,7 @@
   width: 1200px;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -28,6 +29,11 @@
 
 .App-link {
   color: #61dafb;
+}
+.login-link {
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 @keyframes App-logo-spin {
