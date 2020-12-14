@@ -27,7 +27,6 @@ function TasksList() {
 
   return (
     <>
-      <h1>Task List</h1>
       <div className={styles.taskHeader}>
         <span>Username</span>
         <span>Email</span>
