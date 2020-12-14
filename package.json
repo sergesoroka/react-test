@@ -2,7 +2,7 @@
   "name": "test-drive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sergesoroka/tasks-app/",
+  "homepage": "https://sergesoroka.github.io/test-drive/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
